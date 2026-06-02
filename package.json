@@ -6,12 +6,24 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "parse-pdf": "tsx scripts/parse-pdf.ts"
   },
   "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.1",
+    "gsap": "^3.15.0",
+    "leva": "^0.10.1",
+    "martinez-polygon-clipping": "^0.8.1",
     "next": "16.2.7",
+    "pdf-lib": "^1.17.1",
+    "pdf2svg": "^0.1.2",
+    "pdfjs-dist": "^5.6.205",
+    "polygon-clipping": "^0.15.7",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "three": "^0.184.0",
+    "zustand": "^5.0.14"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -19,6 +31,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.7",
+    "tsx": "^4.22.4",
     "typescript": "^5"
   }
 }
